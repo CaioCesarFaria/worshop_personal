@@ -1,0 +1,150 @@
+/***********************************************************************************/
+/* * Layout e programação desenvolvido por GAIA Desenvolvimento Web & UX/UI Design */
+/***********************************************************************************/
+
+
+/* ? *************************** Definindo variáveis fixas **************************/
+
+:root {
+    --amarelo-principal: #FEC013;
+    --azul-secundario: #0E183B;
+    --laranja-principal: #F37425;
+    --cinza-fundo: #E4E4E4;
+    --branco-fundo: #ffffff;
+    --fonte-principal: "Inter", system-ui;
+    --preto-principal: #000000;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--azul-secundario);
+}
+a:any-link {
+    text-decoration: none;
+}
+
+/* TODO ================ MOBILE / 490 PX ================================ */
+/* TODO ================================================================= */
+
+@media screen and (max-width: 490px){
+    /***************************************  HEADER ***********************************/
+    /***********************************************************************************/
+    .container_header {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        color: var(--preto-principal);
+        margin: 0;
+    }
+    .title_box {
+        background-color: var(--amarelo-principal);
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        
+    
+    }
+    .header_title {
+        font-size: 28px;
+        font-weight: bolder;
+        font-family: var(--fonte-principal);
+        color: var(--azul-secundario);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 1.5rem;
+    }
+
+    /*****************************  APRESENTAÇÃO DO WORKSHOP ***************************/
+    /***********************************************************************************/
+
+    .container_apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+    .workshop_tittle {
+        color: var(--branco-fundo);
+        font-size: 32px;
+        text-align: center;
+        font-family: var(--fonte-principal);
+    }
+    .workshop_tittle strong {
+        color: var(--amarelo-principal);
+        font-size: 36px;
+        font-weight: 900;
+
+    }
+    .workshop_subtitle {
+        color: var(--branco-fundo);
+        font-size: 19px;
+        font-weight: 400;
+        font-family: var(--fonte-principal);
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .workshop_palestrantes {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .palestrante_box {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--amarelo-principal);
+        padding: 0;
+        margin: 0;
+        border: 1px solid var(--amarelo-principal);
+        border-radius: 8px;
+    }
+    .texto_nome {
+        font-family: var(--fonte-principal);
+        color: var(--preto-principal);
+        font-weight: bold;
+        text-align: center;
+        font-size: 14px;
+    }
+    .texto_profissao {
+        font-family: var(--fonte-principal);
+        color: var(--preto-principal);
+        font-weight: bold;
+        text-align: center;
+        font-size: 8px;
+    }
+}
+
+/* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */
+/* TODO ================================================================= */
+
+@media only screen and (min-width: 491px) and (max-width: 768px){
+
+}
+
+/* TODO ======== TABLET / 769 PX  ATÉ 1023PX ============================= */
+/* TODO ================================================================= */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+
+}
+
+/* TODO ======== NOTEBOOK / 1024 PX  ATÉ 1200PX ============================ */
+/* TODO ================================================================= */
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    
+}
+
+/* TODO ======== PC 1024 PX  ATÉ 1200PX ============================ */
+/* TODO ================================================================= */
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    
+}
+
+
+/* TODO ======== DESKTOP / MIN 1201PX  ============================ */
+/* TODO ================================================================= */
+@media screen and (min-width: 1201px){
+
+}
+

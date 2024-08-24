@@ -113,6 +113,65 @@ a:any-link {
         text-align: center;
         font-size: 8px;
     }
+    .container_info {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info_local {
+        font-family: var(--fonte-principal);
+        font-size: 28px;
+        color: var(--amarelo-principal);
+        font-weight: bold;
+        margin: 0;
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .info_endereco{
+        font-family: var(--fonte-principal);
+        font-size: 12px;
+        color: var(--branco-fundo);
+        font-weight: 300;
+        margin: 0;
+        
+        text-align: center;
+    }
+    .info_box {
+        display: flex;
+        justify-content: space-evenly;
+        color: var(--amarelo-principal);
+        font-weight: 500;
+        font-family: var(--fonte-principal);
+    }
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .bruno_intro {
+        background-color: var(--amarelo-principal);
+        display: flex;
+        flex-direction: column;
+    }
+    .bruno_intro img {
+        width: 28px;
+        
+    }
+    .bruno_title{
+        font-family: var(--fonte-principal);
+        text-align: left;
+        font-weight: 800;
+        margin: 0 5rem;
+        padding-bottom: 1rem;
+        font-size: 18px;
+    }
+
+    .destaque_bruno_txt {
+        background-color: var(--amarelo-principal);
+        font-size: 18px;
+        
+    }
 }
 
 /* TODO ======== MOBILE / 491 PX  ATÉ 768PX ============================== */

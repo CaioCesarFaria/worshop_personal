@@ -11,6 +11,7 @@
     --laranja-principal: #F37425;
     --cinza-fundo: #E4E4E4;
     --branco-fundo: #ffffff;
+    --verde-whatsapp:#34c759;
     --fonte-principal: "Inter", system-ui;
     --preto-principal: #000000;
 
@@ -408,11 +409,65 @@ a:any-link {
     }
 
     .btn_comprar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 60vw;
         margin-top: 1rem;
         background-color: var(--amarelo-principal);
+        height: 36px;
+        font-family: var(--fonte-principal);
+        color: var(--azul-secundario);
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 16px;
+        border: 1px solid var(--amarelo-principal);
+    }
+
+    .maisinformacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .maisinformacoes p {
+        color: var(--amarelo-principal);
+        font-family: var(--fonte-principal);
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+    }
+    a:any-link {
+        text-decoration: none;
+    }
+    .btn_whtsapp {
+        background-color: var(--verde-whatsapp);
+        color: var(--branco-fundo);
+        width: 200px;
         height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        font-family: var(--fonte-principal);
+        font-weight: bold;
+        margin-bottom: 4rem;
+    }
+    .copyright {
+        background-color: #d9d9d9;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
+        
+    }
+    .copyright a {
+        text-decoration: none;
+        color: var(--preto-principal);
+        font-family: var(--fonte-principal);
+        font-size: 12px;
     }
 }
 

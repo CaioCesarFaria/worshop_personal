@@ -415,6 +415,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     .fomulario_base input {
         width: 80vw;
@@ -438,6 +439,7 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
     }
 
     .maisinformacoes {
@@ -885,6 +887,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     .fomulario_base input {
         width: 80vw;
@@ -908,6 +911,7 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
     }
 
     .maisinformacoes {
@@ -1354,6 +1358,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     .fomulario_base input {
         width: 60vw;
@@ -1377,6 +1382,7 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
     }
 
     .maisinformacoes {
@@ -1827,6 +1833,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     .fomulario_base input {
         width: 60vw;
@@ -1850,6 +1857,7 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
     }
 
     .maisinformacoes {
@@ -2296,6 +2304,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     .fomulario_base input {
         width: 60vw;
@@ -2319,6 +2328,7 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin:  0 auto;
     }
 
     .maisinformacoes {
@@ -2771,6 +2781,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     .fomulario_base input {
         width: 60vw;
@@ -2794,6 +2805,10 @@ a:any-link {
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
+    }
+    .btn_comprar:hover {
+        cursor: pointer;
     }
 
     .maisinformacoes {
@@ -3247,6 +3262,7 @@ a:any-link {
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     .fomulario_base input {
         width: 60vw;
@@ -3260,16 +3276,22 @@ a:any-link {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50vw;
+        width: 40vw;
         margin-top: 1rem;
         background-color: var(--amarelo-principal);
-        height: 36px;
+        height: 48px;
         font-family: var(--fonte-principal);
         color: var(--azul-secundario);
         font-size: 24px;
         font-weight: bold;
         border-radius: 16px;
         border: 1px solid var(--amarelo-principal);
+        margin: 0 auto;
+    }
+    .btn_comprar:hover {
+        scale: 1.05;
+        cursor: pointer;
+        
     }
 
     .maisinformacoes {

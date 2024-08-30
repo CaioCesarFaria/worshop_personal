@@ -225,7 +225,7 @@ a:any-link {
         background-blend-mode: multiply;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -235,6 +235,7 @@ a:any-link {
         margin: 0 6rem 0 2rem;
         padding-bottom: 1rem;
         font-size: 18px;
+        padding-top: 1rem;
     }
     
     .destaque_bruno{
@@ -729,7 +730,7 @@ a:any-link {
         background-size: cover;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -739,6 +740,7 @@ a:any-link {
         margin: 0 6rem 0 2rem;
         padding-bottom: 1rem;
         font-size: 18px;
+        padding-top: 1rem;
     }
     
     .destaque_bruno{
@@ -1238,7 +1240,7 @@ a:any-link {
         background-size: cover;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -1248,6 +1250,7 @@ a:any-link {
         margin: 0 6rem 0 2rem;
         padding-bottom: 1rem;
         font-size: 18px;
+        padding-top: 1rem;
     }
     
     .destaque_bruno{
@@ -2222,7 +2225,7 @@ a:any-link {
         background-size: cover;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -2728,9 +2731,12 @@ a:any-link {
         background-image: url(./img/bg.svg);
         background-blend-mode: multiply;
         background-size: cover;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.5rem;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -3244,7 +3250,7 @@ a:any-link {
         background-size: cover;
     }
     .bruno_intro img {
-        width: 28px;
+        display: none;
         
     }
     .bruno_title{
@@ -3255,6 +3261,12 @@ a:any-link {
         padding-bottom: 1rem;
         font-size: 22px;
         margin: 0 auto;
+        
+    }
+    .bruno_title strong {
+        font-weight: bolder;
+        color: var(--preto-principal);
+        font-size: 48px;
     }
     
     .destaque_bruno{

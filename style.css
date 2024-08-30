@@ -325,7 +325,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
+        margin-left: 60vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -334,17 +335,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
-        font-size: 10px;
-        
+        font-size: 16px;
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -437,6 +442,7 @@ a:any-link {
         font-size: 12px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -824,8 +830,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
-        max-height:max-content;
+        margin-left: 60vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -834,17 +840,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
-        font-size: 14px;
-        
+        font-size: 16px;
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -937,6 +947,7 @@ a:any-link {
         font-size: 12px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -1328,8 +1339,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
-        max-height:max-content;
+        margin-left: 80vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -1338,17 +1349,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
-        font-size: 14px;
-        
+        font-size: 16px;
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -1441,6 +1456,7 @@ a:any-link {
         font-size: 16px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -1802,8 +1818,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
-        max-height:max-content;
+        margin-left: 80vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -1812,17 +1828,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
         font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
         font-size: 16px;
-        
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -1916,6 +1936,7 @@ a:any-link {
         font-size: 16px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -2302,8 +2323,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
-        max-height:max-content;
+        margin-left: 80vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -2312,17 +2333,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
-        font-size: 14px;
-        
+        font-size: 16px;
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -2415,6 +2440,7 @@ a:any-link {
         font-size: 16px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -2807,8 +2833,8 @@ a:any-link {
     /***********************************************************************************/
     .zaine_foto{
         display: flex;
-        margin: 0 auto;
-        max-height:max-content;
+        margin-left: 80vw;
+        padding: 0;
     }
     .zaine_formacao {
         display: flex;
@@ -2817,17 +2843,21 @@ a:any-link {
         position: relative;
         
         
+        
     }
     .zaine_nome {
         font-family: var(--fonte-principal);
         font-size: 18px;
         font-weight: bold;
         color: var(--azul-secundario);
+        text-align: right;
+        padding-right: 4rem;
     }
     .zaine_profissao {
         font-family: var(--fonte-principal);
         font-size: 16px;
-        
+        text-align: right;
+        padding-right: 4rem;
         color: var(--azul-secundario);
     }
     .zaine_info {
@@ -2921,6 +2951,7 @@ a:any-link {
         font-size: 16px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/
@@ -3435,6 +3466,7 @@ a:any-link {
         font-size: 16px;
         font-weight: 300;
         margin: 0;
+        padding-bottom: 3rem;
     }
     /*****************************  FORMULÁRIO BASE *************************/
     /***********************************************************************************/

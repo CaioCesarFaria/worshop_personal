@@ -526,6 +526,22 @@ a:any-link {
         font-family: var(--fonte-principal);
         font-size: 12px;
     }
+    .container_instagram a{
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+    }
+    /* AJUSTES INSTAGRAM */
+    a:any-link {
+        text-decoration: none;
+    }
+    .container_instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        color: var(--branco-fundo);
+    }
 }
 
 
@@ -1031,6 +1047,22 @@ a:any-link {
         color: var(--preto-principal);
         font-family: var(--fonte-principal);
         font-size: 12px;
+    }
+    .container_instagram a{
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+    }
+    /* AJUSTES INSTAGRAM */
+    a:any-link {
+        text-decoration: none;
+    }
+    .container_instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        color: var(--branco-fundo);
     }
 }
 
@@ -1542,6 +1574,22 @@ a:any-link {
         color: var(--preto-principal);
         font-family: var(--fonte-principal);
         font-size: 12px;
+    }
+    .container_instagram a{
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+    }
+    /* AJUSTES INSTAGRAM */
+    a:any-link {
+        text-decoration: none;
+    }
+    .container_instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        color: var(--branco-fundo);
     }
 }
 
@@ -3044,6 +3092,22 @@ a:any-link {
         font-family: var(--fonte-principal);
         font-size: 12px;
     }
+    .container_instagram a{
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+    }
+    /* AJUSTES INSTAGRAM */
+    a:any-link {
+        text-decoration: none;
+    }
+    .container_instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        color: var(--branco-fundo);
+    }
 }
 
 
@@ -3566,6 +3630,22 @@ a:any-link {
         color: var(--preto-principal);
         font-family: var(--fonte-principal);
         font-size: 12px;
+    }
+    .container_instagram a{
+        color: var(--branco-fundo);
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+    }
+    /* AJUSTES INSTAGRAM */
+    a:any-link {
+        text-decoration: none;
+    }
+    .container_instagram {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 1rem;
+        color: var(--branco-fundo);
     }
 }
 

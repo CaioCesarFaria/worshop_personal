@@ -48,7 +48,7 @@
             <div class="faixa_menor"></div>
             <div class="faixa_maior"></div>
         </div>
-        
+
     </div>
     <div class="container_instagram">
         <a class="insta_link" href="https://www.instagram.com/danielborgesricardo">@danielborgesricardo</a>
@@ -92,7 +92,8 @@
 
         <div class="bruno_intro">
             <img src="./img/aspas.png" alt="Imagem de aspas">
-            <p class="bruno_title"><strong>"  </strong> Eu sou o Bruno, pai da Lara! Também conhecido como Bruno Augusto Personal<strong>"</strong></p>
+            <p class="bruno_title"><strong>" </strong> Eu sou o Bruno, pai da Lara! Também conhecido como Bruno Augusto
+                Personal<strong>"</strong></p>
         </div>
 
         <div class="bruno_container">
@@ -142,8 +143,8 @@
             </div>
             <div class="zaine_curriculo">
                 <p>Zaine Lima é psicóloga (PUC-GO) e design gráfico (UFG).</p>
-                
-                
+
+
             </div>
         </div>
         <div class="zaine_atuacao">
@@ -166,13 +167,17 @@
             </div>
             <div class="zaine_curriculo">
                 <p>Formado em Engenharia Elétrica pela Universidade Federal de Uberlândia (UFU)</p>
-                
+
             </div>
         </div>
         <div class="zaine_atuacao">
-            <p>Daniel Borges é casado e pai de uma filha. Formado em Engenharia Elétrica pela Universidade Federal de Uberlândia (UFU), é especialista em Finanças com MBA em Gestão Financeira, Controladoria e Auditoria pela Fundação Getúlio Vargas (FGV). </p>
-            <p>Em 2021, tornou-se Financial Advisor em um dos maiores escritórios de Family Office do Brasil, a IBBRA Full Family Office, top 5 nesse segmento.</p>
-            <p>Com vasta experiência no mercado de finanças, ajuda diariamente diversas famílias a organizarem e aumentarem seu patrimônio através do trabalho de planejamento financeiro.</p>
+            <p>Daniel Borges é casado e pai de uma filha. Formado em Engenharia Elétrica pela Universidade Federal de
+                Uberlândia (UFU), é especialista em Finanças com MBA em Gestão Financeira, Controladoria e Auditoria
+                pela Fundação Getúlio Vargas (FGV). </p>
+            <p>Em 2021, tornou-se Financial Advisor em um dos maiores escritórios de Family Office do Brasil, a IBBRA
+                Full Family Office, top 5 nesse segmento.</p>
+            <p>Com vasta experiência no mercado de finanças, ajuda diariamente diversas famílias a organizarem e
+                aumentarem seu patrimônio através do trabalho de planejamento financeiro.</p>
         </div>
     </div>
     <hr class="linha_branca">
@@ -210,16 +215,32 @@
 
     <div class="maisinformacoes">
         <p>Mais informações</p>
-        <a href="https://wa.me/5562991152221" target="_blank"
-            class="btn_whtsapp">Fale Conosco</a>
+        <a href="https://wa.me/5562991152221" target="_blank" class="btn_whtsapp">Fale Conosco</a>
     </div>
 
     <div class="copyright">
         <a href="https://wa.me/5562995020285">Criado por GAIA Desenvolvimento e Design</a>
     </div>
 
+    <!-- ======================= POPUP ======================================= -->
+    <div class="popup">
+        <img src="./img/POPUP.svg" alt="Imagem do pop-up">
+        <img class="close" src="./img/Close.svg"/>
+    </div>
+    <script>
+        window.onload = function () {
+            var popup = document.querySelector('.popup');
+            var closeButton = document.querySelector('.close');
 
+            // Mostra o pop-up
+            popup.style.display = 'flex';
 
+            // Adiciona o evento de clique no botão de fechar
+            closeButton.onclick = function () {
+                popup.style.display = 'none'; // Esconde o pop-up ao clicar no botão de fechar
+            };
+        };
+    </script>
 </body>
 
 </html>
